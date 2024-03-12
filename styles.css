@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    background-image: url(./bg.jpg);
+}
+main{
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding-bottom: 3%;
+    justify-content: center;
+}
+.right, .left{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+   
+}
+.right select, .left select{
+    margin-top: 5%;
+}
+input{
+    margin-bottom: 5%;
+    
+}
+select, input{
+    padding: 10%;
+    border-radius: 5%;
+}
+h1{
+    margin-bottom: 5%;
+    text-align: center;
+   margin-top: 5%;
+}
+button{
+    display: flex;
+    margin-inline: auto;
+    border-radius: 5%;
+ 
+    border: none;
+    cursor: pointer;
+    padding: 1% 4%; 
+    background-color:blue;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    main{
+        width: 70%;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    main{
+        width: 100%;
+        padding: 0px;
+    }
+    select, input{
+        padding: 5%;
+        
+    }
+    .container{
+        gap:5%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .container{
+        gap: 2%;
+    }
+    h1{
+        font-size: 1.75rem;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+   
+    select, input{
+        padding: 2%;
+        width: 70%;
+        
+    }
+    .container{
+        padding-left: 5%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .right{
+        margin-left: 10%;
+    }
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Temperature converter</title>
+    
+</head>
+<body>
+    
+    <main>
+        <h1> Temperature converter</h1>
+        <div class="container">
+            <div class="left">
+                <input type="number" name="" id="ask">
+                <select name="" id="type">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                </select>
+            </div>
+            <p>=</p>
+            <div class="right" >
+                <input type="number" name="" id="result">
+                <select name="" id="rtype">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+        <button id="convert">Convert</button>
+    </main>
+    <script>
+        let ask = document.getElementById('ask');
+let result = document.getElementById('result');
+let selectField = document.getElementById("type");
+let selectFieldr = document.getElementById("rtype");
+
+document.getElementById("convert").addEventListener("click", calculate);
+
+function calculate() {
+    let askValue = ask.value;
+    if (selectField.value == "Fahrenheit") {
+        if (selectFieldr.value == "Celsius") {
+            let Celsius = 5 / 9 * (askValue - 32);
+            result.value = Celsius;
+        } else if (selectFieldr.value == "Kelvin") {
+            let Kelvin = 5 / 9 * (askValue - 32) + 273.15;
+            result.value = Kelvin;
+        } else {
+            result.value = askValue;
+        }
+    } else if (selectField.value == "Celsius") {
+        if (selectFieldr.value == "Kelvin") {
+            let Kelvin = askValue + 273.15;
+            result.value = Kelvin;
+        } else if (selectFieldr.value == "Fahrenheit") {
+            let Fahrenheit = (9 / 5 * askValue) + 32;
+            result.value = Fahrenheit;
+        } else {
+            result.value = askValue;
+        }
+    } else if (selectField.value == "Kelvin") {
+        if (selectFieldr.value == "Fahrenheit") {
+            let Fahrenheit = 9 / 5 * (askValue - 273.15) + 32;
+            result.value = Fahrenheit;
+        } else if (selectFieldr.value == "Celsius") {
+            let Celsius = askValue - 273.15;
+            result.value = Celsius;
+        } else {
+            result.value = askValue;
+        }
+    }
+}
+
+    </script>
+</body>
+</html>
