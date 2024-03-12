@@ -1,0 +1,19 @@
+.hero-section{
+    display: flex;
+    flex-direction: column;
+  
+  
+    width: 80%;
+    padding:5% 10%;
+    text-align: justify;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 80%;
+}
+.buttons button{
+    border: none;
+
+}
