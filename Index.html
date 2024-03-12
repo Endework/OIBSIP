@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favricon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Ethiotelecom</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWRIYJgVBCXBK7VOhXCqFDXVhTZhPwuJQJc1rn6P6fw&s"
+            alt=""
+            width="10%"
+            height="11%"
+          />
+          <a class="navbar-brand" href="#">Ethio Telecom</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- MAIN -->
+      <!-- Hero section -->
+      <div class="hero">
+        <div class="text">
+          <h1>Empowering Ethiopia’s Digital Future</h1>
+
+          <p>
+            Experience unparalleled connectivity with our comprehensive range of
+            services. From high-speed internet and mobile packages to
+            value-added services, we’re committed to keeping you connected.
+          </p>
+        </div>
+        <div class="img mt-5">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./Images/visa_plan.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./Images/airtime.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./Images/telebirr.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- services -->
+      <section Id="services">
+        <h4 class="mb-5 fs-2">Our services</h4>
+        <div class="row">
+          <div class="col-12 col-md-3 mb-3">
+            <div class="card card-serv">
+              <h6 class="mt-3">Mobile services</h6>
+              <div class="service-img">
+                <img
+                  class="card-image w-25"
+                  src="./Images/mobile service.jpg"
+                  alt="mobile services"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Our Mobile Services are designed to keep you connected in an
+                  increasingly digital world. We offer a range of Mobile
+                  Packages tailored to meet your unique needs. Whether you’re a
+                  heavy data user, a frequent caller, or someone who simply
+                  needs a reliable connection, we have a package for you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <div class="card card-serv">
+              <h6 class="mt-3">Fixed Line services</h6>
+              <div class="service-img">
+                <img
+                  class="card-image w-25"
+                  src="./Images/phone.jpeg"
+                  alt="fixed line services"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Our Fixed Line Services are all about providing you with
+                  stable, high-speed connectivity. We offer both Fixed Voice and
+                  Fixed Broadband Services to our subscribers. Enjoy crystal
+                  clear voice quality with our fixed line telephone services.
+                  Stay connected with your loved ones or conduct business calls
+                  with utmost clarity.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <div class="card card-serv">
+              <h6 class="mt-3">Broadband Services</h6>
+              <div class="service-img">
+                <img
+                  class="card-image w-25"
+                  src="./Images/broadband.jpeg"
+                  alt="broadband services"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Our Broadband Services are designed to empower you with
+                  high-speed data and internet services. We cater to a large
+                  number of users, ensuring everyone has access to the digital
+                  world. Experience seamless browsing, rapid downloads,
+                  uninterrupted streaming, and much more with our Broadband
+                  Services. Connect with the world at the speed of light!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <div class="card card-serv">
+              <h6 class="mt-3">Value Added Services</h6>
+              <div class="service-img">
+                <img
+                  class="card-image w-25"
+                  src="./Images/cloud.jpeg"
+                  alt="value added services"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Our cloud solutions, including telecloud and partnership cloud
+                  solutions, offer enhanced connectivity and communication.
+                  These solutions are designed to streamline your operations and
+                  grow with your business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- update and news -->
+      <section id="update">
+        <h4 class="mb-5 fs-2">Update and News</h4>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide w-100"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active w-100 text-center">
+              <h5>
+                ETHIO TELECOM LAUNCHES 5G SERVICE IN CENTRAL EAST REGION, HARAR
+                AND HAROMAYA CITIES!
+              </h5>
+
+              <p>
+                As part of its commitment to realizing the country’s digital
+                transformation vision, the company has
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+            <div class="carousel-item active w-100 text-center">
+              <h5>
+                Ethio Telecom Launches A Matching Fund Scheme Campaign With
+                Selected Charitable Institutions
+              </h5>
+
+              <p>
+                Apart from our prior engagement in building multifaceted telecom
+                infrastructure and realizing the country’s digital
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+            <div class="carousel-item active w-100 text-center">
+              <h5>
+                Ethio Telecom And The Addis Ababa City Administration Innovation
+                And Technology Development Bureau Sign A Smart Fire And
+                Emergency Management Solution Implementation Agreement
+              </h5>
+
+              <p>
+                Ethio telecom, driven by the aspiration to go “beyond
+                connectivity,” remains dedicated to realizing the
+              </p>
+              <a href="">READ MORE</a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="stat">
+        <h4 class="fs-2 mb-5">Statistics</h4>
+        <div
+          class="row gap-3"
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <div class="col-sm-2 mb-3">
+            <div class="card card-test">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Mobile Service Subscribers
+                </h5>
+                <p class="card-text counter" data-count="71.7">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 mb-3">
+            <div class="card card-test">
+              <div class="card-body">
+                <h5 class="card-title text-center">Data and Internet users</h5>
+                <p class="card-text counter" data-count="36.4">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 mb-3">
+            <div class="card card-test">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Fixed Broadband Subscribers
+                </h5>
+                <p class="card-text counter" data-count="0.678">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 mb-3">
+            <div class="card card-test">
+              <div class="card-body">
+                <h5 class="card-title text-center">Fixed Voice Subscribers</h5>
+                <p class="card-text counter" data-count="0.8341">0</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 mb-3">
+            <div class="card card-test">
+              <div class="card-body">
+                <h5 class="card-title text-center">Total Customers</h5>
+                <p>(as of January 2024)</p>
+                <p class="card-text counter" data-count="74.6">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Testimonials">
+        <h4 class="fs-2 mb-3">Testimonials</h4>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="https://ak.picdn.net/offset/photos/5dcefd4c469b183482a26e2e/medium/offset_878775.jpg"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Miftah Abagojam</p>
+                      <p class="card-text">
+                        <span>"</span> Really encouraging discount which is
+                        affordable for everybody <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs3WI46NKX-B5PKMqFqXZQ_nIH77Jv1DygyA&usqp=CAU"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Abebe Aregay</p>
+                      <p class="card-text">
+                        <span>"</span> CONGRADULATIONS! it is a giant step
+                        forward to the founding of a cashless society.
+                        <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="data:image/jpeg;base64,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"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Abraham Yigzaw</p>
+                      <p class="card-text">
+                        <span>"</span> I bought the yearly unlimited data
+                        package a month ago and i gotta say its one of the best
+                        decisions i have ever made. it seems like a lot to pay
+                        the full amount upfront but its totally worth it once
+                        you realize how much you would spent had bought it
+                        monthly. Great Job. <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <!-- Card 4 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="https://ak.picdn.net/offset/photos/5dcefd4c469b183482a26e2e/medium/offset_878775.jpg"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Shewa</p>
+                      <p class="card-text">
+                        <span>"</span> Its a good step that someone atleast
+                        respond to customers and do something about it 😊. I
+                        hope you do this often. <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEzR-zw4sd5uf3aIQMy9e33dACfHhoRhFow&usqp=CAU"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Gmechis Ejeta</p>
+                      <p class="card-text">
+                        <span>"</span> it is reallly really a good app so far. I
+                        recommend it for everyone to use Telebirr mobile.
+                        <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-md-4 mb-3">
+                  <div class="card card-check">
+                    <div class="img-container">
+                      <img
+                        class="card-image timage"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17ToOke7z-5N_Wopfwqi-lhWO262W92jfCQ&usqp=CAU"
+                        alt="testimony image"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <p class="Name text-center">Nasreen M. Adam</p>
+                      <p class="card-text">
+                        <span>"</span> And you get surprised by the
+                        proffessionalism and efficiency of some Ethiotelecom
+                        employees like Ato Tesfahun at Bolemedhanialem Branch.
+                        ontime at their stations, courteously providing info and
+                        swift service 👏 <span>"</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#testimonialCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#testimonialCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h4 class="fs-2 mb-3">Contact Us</h4>
+        <form action="#">
+          <input type="text" name="" id="name" placeholder="Your Name" />
+          <input type="Email" name="" id="email" placeholder="Your Email" />
+          <textarea
+            name=""
+            id="message"
+            cols="15"
+            rows="5"
+            placeholder="Your Message"
+          ></textarea>
+          <input
+            class="submit"
+            id="myBtn"
+            type="submit"
+            value="Submit"
+            class="btn btn-primary ps-3"
+          />
+        </form>
+      </section>
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">×</span>
+          <p>
+            Thank you for contacting us <br />
+            we will get back to you soon!
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footercontaint">
+        <div class="col">
+          <div class="title">
+            <h6 class="text-start">Ethio Telecom</h6>
+          </div>
+          <div class="text">
+            <p>2QC3+C3W, Churchill Ave, Addis Ababa</p>
+            <p>+123456789</p>
+            <p>info@ethiotel</p>
+          </div>
+          <div class="social d-flex fs-3 gap-3">
+            <a href="www.facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="www.instagram.com"><i class="bi bi-instagram"></i></a>
+            <a href="www.twitter.com"><i class="bi bi-twitter-x"></i></a>
+            <a href="www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <h6 class="text-start">Quick links</h6>
+
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+            <a class="nav-link" href="#">Services</a>
+
+            <a class="nav-link" href="#">shop</a>
+
+            <a class="nav-link" href="#">Support</a>
+
+            <a class="nav-link" href="#">About us</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p>Copy write 2024 @Ethiotelecom</p>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
