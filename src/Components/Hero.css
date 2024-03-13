@@ -1,19 +1,26 @@
-.hero-section{
+.hero-section {
     display: flex;
     flex-direction: column;
+    justify-content: center; /* Aligns items on the vertical line (if the flex direction is row) */
+    align-items: center; /* Aligns items on the horizontal line (if the flex direction is row) */
+    background: #F2F2F2;
+    width: 100%;
+    color: black;
+    padding: 5% 10%; /* You can adjust the padding as needed */
+    text-align: center; /* Centers the text */
+    background-image: url('../../public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
-  
-    width: 80%;
-    padding:5% 10%;
-    text-align: justify;
-}
-.buttons{
+  .buttons {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Centers the buttons horizontally */
     gap: 5%;
     width: 80%;
-}
-.buttons button{
+  }
+  
+  .buttons button {
     border: none;
-
-}
+  }
+  

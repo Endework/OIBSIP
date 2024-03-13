@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.privacy{
+    padding-inline:  10%;
+    padding-top: 1.5%;
+}
+.privacy h2{
+    padding-bottom: 5%;
+}
+
