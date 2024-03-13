@@ -1,10 +1,9 @@
-// Weather.js
-
 import React, { useState, useEffect } from 'react';
 import './Weather.css';
 
 function Weather() {
-    const api_key = '2dab9684df9e7eb830f96f273d800b30';
+    // Use environment variable for the API key
+    const api_key = process.env.REACT_APP_WEATHER_API_KEY;
 
     const [currentDay, setCurrentDay] = useState('');
     const [currentDate, setCurrentDate] = useState('');
@@ -18,13 +17,17 @@ function Weather() {
         }
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
         const response = await fetch(url);
+        if (!response.ok) { // If the response is not ok (status code is not in the range 200-299)
+            alert('City not found. Please try again.');
+            return;
+        }
         const data = await response.json();
         const location = document.getElementsByClassName('location');
         const temperature = document.getElementsByClassName('temp');
         const weather = document.getElementsByClassName('weather1');
         location[0].innerHTML = data.name;
-        temperature[0].innerHTML = data.main.temp;
-        weather[0].innerHTML = data.weather.main;
+        temperature[0].innerHTML = data.main.temp + "°C"; // Add the degree Celsius symbol
+        weather[0].innerHTML = data.weather[0].description; // Access the 'description' property of the first item in the 'weather' array
     };
 
     // Get the current day, date, and time
@@ -64,15 +67,18 @@ function Weather() {
                     <i className='fa-solid fa-magnifying-glass'></i>
                 </button>
             </div>
-            <p className='location mt-4 fs-1'>Addis Ababa</p>
+            <h3 className='location mt-4 fs-1'>Addis Ababa</h3>
+            <div className='cloud'>
+                    
+                    </div>
             <div id='clockdate' className='fs-5'>
                 <div id='day'> {currentDay}</div>
                 <div id='date'>{currentDate}</div>
                 <div id='time'> {currentTime}</div>
             </div>
             <div className='status'>
-                <p className='temp'>24</p>
-                <p className='weather1'>Sunny</p>
+                <h3 className='temp'>24 °C</h3>
+                <h4 className='weather1'>Sunny</h4>
             </div>
             
         </div>
