@@ -1,6 +1,12 @@
 .navbar{
     background: #04340F !important;
 }
+.nav-link{
+    cursor: pointer !important;
+}
+.active{
+    color: white !important;
+}
 .nav-link, .navbar-brand {
     color: white;
 

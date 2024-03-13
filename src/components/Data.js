@@ -10,7 +10,7 @@ const Data = [
       price: 50,
     },
     {
-      image: 'https://cms.interiorcompany.com/cdn-cgi/image/quality=70,fit=crop,gravity=auto,format=webp/wp-content/uploads/2023/11/eccentric-round-bedframes.png',
+      image: 'https://t4.ftcdn.net/jpg/04/97/02/61/360_F_497026116_0faq77nXSZMr0QdYTCv55y5EqgT9vRMT.jpg',
       tag: 'Bed',
       price: 350,
     },

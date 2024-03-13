@@ -10,6 +10,11 @@ button{
     color: white;
     border-radius: 5px;
 }
+.link {
+    color: inherit; 
+    text-decoration: none; 
+}
+
 .Hero--section{
     background-image: url('https://img.freepik.com/free-photo/gray-sofa-brown-living-room-with-copy-space_43614-954.jpg?size=626&ext=jpg');
     background-position: center;

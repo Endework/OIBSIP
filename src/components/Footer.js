@@ -10,16 +10,13 @@ function Footer() {
         </div>
         <div className='col link'>
             <a href='/'>Home</a>
-            <a href='/'>Home</a>
-            <a href='/'>Home</a>
-            <a href='/'>Home</a>
-            <a href='/'>Home</a>
+            
         </div>
       </div>
       <hr/>
       <div className='row'>
         <div className='col'>
-            <p>C@2022Linux limited</p>
+            <p>AE@p limited</p>
         </div>
         <div className='col'>
             <p>privacy</p>

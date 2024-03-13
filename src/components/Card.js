@@ -28,6 +28,9 @@ function Card({ cart, setCart }) {
   return (
     <div>
       <div className="container d-flex justify-content-between bg-primary py-3">
+      <button className="btn  bg-dark text-light" type="submit">
+    <Link to="/" className="link">Home</Link>
+</button>
       <div className='navigation'>
   <input type='checkbox' id='all' checked={selectedFilter === 'All'} onChange={() => handleFilterChange('All')} />
   <label htmlFor='all'>All</label>
