@@ -1,0 +1,45 @@
+.weather{
+    padding: 10% 7%;
+    background: #4B4453;
+    width: 60%;
+   margin: 5% 20%;
+    position: fixed;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    background-image: url('https://i.pinimg.com/564x/c0/10/bd/c010bdb37411d217a1243261e4c11e5e.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    
+}
+.search, .location , .Date, #clockdate, .status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status{
+    flex-direction: column;
+}
+.search input{
+   
+    padding: 0.75% 5%;
+    border-radius: 50px;
+    border: none;
+    
+}
+.search{
+    gap:10px;
+}
+
+.search-button{
+    border: none;
+    padding: 0.75% 2%;
+    border-radius: 50px;
+}
+
+#day, #date, #time{
+    
+    padding-inline: 0.5%;
+}
