@@ -1,3 +1,5 @@
+![image](https://github.com/Endework/OIBSIP/assets/83136075/19fdbdab-8dc6-43b1-b567-9d0c6a2efd24)
+
 # WeatherApp ☀️🌧️
 
 WeatherApp is a weather forecast application built with React. This project allows users to search for a location and see the current weather. It fetches real-time data using a weather API.
