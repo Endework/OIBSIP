@@ -1,18 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Button.css';
 
 function Button() {
   
   return (
     <div className='button'>
-      <Link to ='/product'>
-      <button className='product'>All Products</button>
-      </Link>
+      <NavLink to='/product' activeClassName='active'>
+        <button className='product'>All Products</button>
+      </NavLink>
       
-      <Link to="/available">
-        <button className='available' >Available Now</button>
-      </Link>
+      <NavLink to="/available" activeClassName='active'>
+        <button className='available'>Available Now</button>
+      </NavLink>
     </div>
   );
 }

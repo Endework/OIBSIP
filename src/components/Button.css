@@ -1,7 +1,7 @@
 
 button{
     color: white;
-    padding: 0.25% 1.5%;
+    padding: 0.25% 2%;
     border-radius:10px ;
     border: none;
 
@@ -13,9 +13,18 @@ button{
     background: #1B1D1F;
     padding-bottom: 5%;
 }
-.product{
+/* .product{
     background: #6F757C;
 }
 .available{
     background: transparent;
-}
+} */
+.product, .available {
+    background-color: transparent;
+    /* other styles */
+  }
+  
+  .active {
+    background-color: #6F757C !important;
+  }
+  

@@ -1,3 +1,11 @@
 body{
     background: #1B1D1F;
 }
+button{
+    color: white;
+    padding: 0.25% 2% !important;
+    border-radius:10px !important;
+    border: none;
+    border-radius: 15px;
+
+}
