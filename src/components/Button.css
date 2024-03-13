@@ -1,0 +1,21 @@
+
+button{
+    color: white;
+    padding: 0.25% 1.5%;
+    border-radius:10px ;
+    border: none;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1B1D1F;
+    padding-bottom: 5%;
+}
+.product{
+    background: #6F757C;
+}
+.available{
+    background: transparent;
+}

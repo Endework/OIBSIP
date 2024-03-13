@@ -1,0 +1,71 @@
+body{
+    color: white;
+   
+    background: #111315;
+    font-family: "DM Sans", sans-serif;
+}
+.container{
+    background: #1B1D1F !important;
+    
+    
+    
+    
+}
+.card{
+    
+    position: relative;
+    border: none !important;
+    border-radius: 10px !important;
+    width: 80% !important;
+    margin: 1rem;
+}
+.card--image{
+    border-radius: 10px;
+    width: 100%;
+   
+
+}
+.card--title--price h2{
+    font-size: 20px;
+
+}
+.card--title--price, .star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.card--title--price p{
+    font-size: 12px !important;
+    background: #BEE3CC;
+    padding-inline: 2%;
+    border-radius: 10%;
+    color: black;
+}
+
+.star .left{
+    display: flex;
+    align-items: center !important;
+}
+
+.card--text{
+   
+    width: 100%;
+    padding: 3%;
+    background: black !important;
+    color: white !important;
+    
+}
+.card--tag{
+    
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    color: black;
+    background:#F6C768 ;
+    border-radius: 10%;
+    padding-inline: 5%;
+    
+}
+.star .status{
+    color: #ED735D;
+}
