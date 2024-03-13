@@ -1,0 +1,22 @@
+.footer{
+    padding: 3% 5% ;
+    background: #04340F;
+    color: white;
+   
+}
+.footer .row .col a{
+    text-decoration: none;
+    color: white;
+
+}
+.link a{
+    margin-left: 15px;
+    
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer hr{
+    border: 1.5px solid white;
+}

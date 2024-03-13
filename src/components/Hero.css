@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    padding:1% 4%;
+    background: #04340F;
+    color: white;
+    border-radius: 5px;
+}
+.Hero--section{
+    background-image: url('https://img.freepik.com/free-photo/gray-sofa-brown-living-room-with-copy-space_43614-954.jpg?size=626&ext=jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 0.75;
+    position: relative;
+}
+.Hero--text{
+    width: 40%;
+    background: #D5E6E5;
+   position: absolute;
+   left: 10%;
+   top: 15%;
+    padding: 3%;
+    border-radius: 30px;
+}

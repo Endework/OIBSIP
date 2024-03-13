@@ -1,0 +1,16 @@
+
+.cart{
+    padding: 5% 10%;
+}
+.cart--card{
+    width: 300px !important;
+    flex: 1 0 21%; 
+  margin: 1%; 
+    
+
+}
+.cart-container{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

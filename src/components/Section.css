@@ -1,0 +1,101 @@
+section{
+    padding-inline: 10%;
+    padding-block: 5%;
+    background: #E1DDDD;
+}
+#sponser, #why, #testimonial{
+    background: whitesmoke;
+}
+#about, #product, #join{
+    border-bottom-right-radius: 30px;
+}
+h2{
+    text-align: center;
+    color: #04340F;
+    text-transform: capitalize;
+}
+.card{
+    width: auto !important;
+}
+.simage{
+    width: 5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.simage img{
+    width: 100%;
+}
+#about{
+    display: flex;
+}
+.about--pic, .about--text{
+    width: 50%;
+}
+.about--pic img{
+    width: 100%;
+    border-radius: 30px;
+}
+.about--pic {
+    position: relative;
+}
+.about--pic .top{
+    position: absolute;
+    height: 85%;
+    top:-30%;
+    width:auto;
+    left:70%
+}
+.about--text p{
+    margin-right: 5%;
+    text-align: justify;
+    padding-top: 10%;
+    width: 80%;
+}
+.card a{
+    background: #04340F !important;
+    color: white !important;
+    border: none;
+}
+.card-img-top{
+    height: 300px !important;
+    width: auto !important;
+}
+#why button{
+    background: none !important;
+    border:1px solid #04340F;
+    color: #04340F;
+}
+#why button:hover{
+    background: #04340F !important;
+    color: white !important;
+}
+.user{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    
+}
+#join .row{
+    display: flex;
+}
+.join-pic-div, .join-text{
+    width: 50%;
+}
+.join-text{
+    padding-block: 10%;
+}
+.join-text input{
+    width: 100%;
+    padding-block: 1.5%;
+    border-radius: 8px;
+    border: 1px solid #04340F;
+}
+.join-pic img{
+    width: 100%;
+    border-bottom-right-radius: 30px;
+}

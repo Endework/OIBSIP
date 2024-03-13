@@ -1,0 +1,12 @@
+.navigation{
+    display: flex;
+    
+}
+.navigation label{
+    margin-inline: 15px;
+}
+.items .container .row .col .card{
+    width: 250px !important;
+    height: auto !important;
+    margin-block: 20px !important;
+} 
