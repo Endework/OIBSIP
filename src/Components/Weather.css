@@ -6,17 +6,21 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
+body{
+    overflow: hidden;
+}
 .weather{
     padding: 10% 7% 5%;
     background: #4B4453;
     width: 60%;
-    margin: 5%  20% 0%;
-    position: fixed;
+    margin-inline: 20%;
+    margin-block: 5%;
+    /* margin: 5%  20% 10%; */
+    height: max-content;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     color: black;
     background-image: url(../../public/Assets/cloud.jpeg);
-    
     background-size:cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -74,4 +78,16 @@
     
     
     padding: 2% 0.5%;
+}
+@media screen and (max-width:425px){
+    .weather{
+        width: 80%;
+        margin-inline: 5%;
+        margin-block: 10%;
+        
+    }
+    .search input, .search .search-button{
+        padding: 3% 5%;
+    }
+    
 }
