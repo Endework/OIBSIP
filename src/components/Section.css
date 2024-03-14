@@ -99,3 +99,19 @@ h2{
     width: 100%;
     border-bottom-right-radius: 30px;
 }
+@media screen and (max-width: 425px) {
+    .about--pic {
+       display: flex;
+       flex-direction: column;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about--pic, .about--text{
+        width: 100%;
+    }
+    
+    .about--pic .bottom{
+        width: 100%;
+    }
+  }
