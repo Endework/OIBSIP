@@ -35,39 +35,43 @@ img:hover{
     padding-block: 5%;
     
 }
+#exp {
+    padding-inline: 10%;
+}
 #exp h3, #ask h3{
     text-align: center;
     padding-bottom: 2%;
     
 }
 #exp .row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
     margin-bottom: 5%;
 }
-#exp .row .col p{
+#exp .row .col-6 p{
     border: 1.5px solid #FCEAFF;
-    padding: 2.5% 1%;
+    padding: 2.5% 0.5%;
+    
     text-align: center;
+    
 }
-#exp .row .col p:hover {
+#exp .row .col-6 p:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
-
+.right .left{
+    width: 40%;
+}
 
 .links, .external, .info{
     display: flex;
     gap: 5%;
     width: 70%;
 }
-.right, .left, .text, .image{
-    width: 50%;
+
+.left .image, .right .image{
+    width: 90%;
 }
 .left .image img, .right .image img{
-    width: 150%;
+    width: 100%;
     border:5px solid #F2F2F2;
 }
 #weather{
@@ -122,6 +126,7 @@ img:hover{
 #ask button{
     background: #8C1909;
     padding:0px;
+    margin-right: 15px;
 }
 #ask button:hover{
     background-color:#fef1e2;
@@ -137,3 +142,44 @@ img:hover{
     border: none;
     
 }
+@media screen and (max-width: 768px) {
+    #sec1, #sec2, #sec3{
+        flex-direction: column;
+    }
+    .right p, .left p{
+        width: 100%;
+        
+        
+    }
+    .right, .left{
+        width: 100%;
+        margin-top: 5%;
+    }
+    #desc{
+        flex-direction: column;
+    }
+    #desc .image, #desc .text{
+        width: 100%;
+    }
+    #desc .text p{
+        width: 100%;
+        text-align: justify;
+    }
+    #ask .buttons button{
+        margin-bottom: 5%;
+    }
+    
+  }
+@media screen and (max-width: 425px) {
+    .links p{
+        padding: 1.5% 2%;
+        
+    }
+    #ask .info{
+        display: flex;
+        flex-direction: column;
+    }
+    #ask h3{
+        font-size: 20px;
+    }
+  }

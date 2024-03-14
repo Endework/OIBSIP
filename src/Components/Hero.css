@@ -12,15 +12,10 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  .buttons {
-    display: flex;
-    justify-content: center; /* Centers the buttons horizontally */
-    gap: 5%;
-    width: 80%;
+  @media screen and (max-width: 425px) {
+    #hero{
+      padding-top: 12.5%;
+    }
   }
   
-  .buttons button {
-    border: none;
-  }
   

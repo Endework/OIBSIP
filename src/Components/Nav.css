@@ -3,7 +3,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     background:#000033;
-    padding-block: 1% 0.75% ;
+    padding: 1% 0.75% ;
     position: fixed;
     width: 100%;
   }

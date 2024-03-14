@@ -22,8 +22,8 @@ function Section() {
         
     </div>
     <div className='external'>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-solid fa-up-right-from-square"></i>
+    <a href="https://github.com/Endework/OIBSIP/tree/coffee"><i class="fa-brands fa-github"></i></a>
+    <a href="https://coffeenew1.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
     </div>
         </div>
       </section>
@@ -39,8 +39,8 @@ function Section() {
         
     </div>
     <div className='external'>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-solid fa-up-right-from-square"></i>
+    <a href="https://github.com/Endework/OIBSIP/tree/ecomm" ><i class="fa-brands fa-github text-dark"></i></a>
+    <a href="https://aefurnishers.netlify.app/"><i class="fa-solid fa-up-right-from-square text-dark"></i></a>
     </div>
         </div>
         <div className='right'>
@@ -63,24 +63,24 @@ function Section() {
         
     </div>
     <div className='external'>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-solid fa-up-right-from-square"></i>
+    <a href="https://github.com/Endework/OIBSIP/tree/weather"><i class="fa-brands fa-github"></i></a>
+    <a href="https://forcastapp1.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
     </div>
         </div>
     </section>
     <section id='exp'>
     <h3>Key Expertise</h3>
     <div className='row'>
-        <div className='col'><p>Web development</p></div>
-        <div className='col'><p>React</p></div>
-        <div className='col'><p>Bootstrap</p></div>
-    </div>
-    <div className='row'>
-    <div className='col'><p>JavaScript</p></div>
-    <div className='col'><p>Github</p></div>
-    <div className='col'><p>Vs Code</p></div>
-    
-    </div>
+    <div className='col-6 col-md-4'><p>Web development</p></div>
+    <div className='col-6 col-md-4'><p>React</p></div>
+    <div className='col-6 col-md-4'><p>Bootstrap</p></div>
+</div>
+<div className='row'>
+    <div className='col-6 col-md-4'><p>JavaScript</p></div>
+    <div className='col-6 col-md-4'><p>Github</p></div>
+    <div className='col-6 col-md-4'><p>Vs Code</p></div>
+</div>
+
     </section>
      <section id='desc'>
     <div className='image'>
