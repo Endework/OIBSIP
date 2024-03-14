@@ -14,6 +14,10 @@ h2{
     color: #04340F;
     text-transform: capitalize;
 }
+.link {
+    color: inherit !important; 
+    text-decoration: none; 
+}
 .card{
     width: auto !important;
 }
@@ -79,6 +83,9 @@ h2{
     display: flex;
     align-items: center;
     
+}
+#product button .link{
+    background: none !important;
 }
 #join .row{
     display: flex;

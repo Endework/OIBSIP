@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section.css'
+import { Link } from 'react-router-dom';
 
 function Section() {
   return (
@@ -60,7 +61,9 @@ function Section() {
         <p>100$</p>
     </div>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="/" className="btn btn-primary">Buy Now</a>
+    <button className="btn btn-outline-success bg-success text-dark" type="submit">
+    <Link to="/card" className="link">Buy now</Link>
+</button>
   </div>
 </div></div>
             <div className='col'><div className="card" >
@@ -72,7 +75,9 @@ function Section() {
         <p>100$</p>
     </div>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="/" className="btn btn-primary">Buy Now</a>
+    <button className="btn btn-outline-success bg-success text-dark" type="submit">
+    <Link to="/card" className="link">Buy now</Link>
+</button>
   </div>
 </div></div>
         </div>

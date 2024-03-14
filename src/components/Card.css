@@ -10,3 +10,23 @@
     height: auto !important;
     margin-block: 20px !important;
 } 
+@media screen and (max-width: 425px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation label{
+        margin-inline: 0px;
+        font-size: 15px;
+        width: 100%;
+        
+    }
+    button{
+        padding-block: 5% !important;
+        height: 100% !important;
+    }
+    .items .container .row .col .card{
+        width: 100% !important;
+      
+        
+    } 
+  }
